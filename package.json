@@ -1,9 +1,12 @@
 {
-  "name": "phoneVerif",
-  "version": "1.0.0",
+  "name": "phoneverify",
+  "version": "1.0.1",
   "description": "Beautiful little library to verify phone number",
   "main": "index.js",
-  "repository": "https://github.com/juggernaut451/phoneVerify",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juggernaut451/phoneVerify.git"
+  },
   "author": "Ashutosh Kumar Singh <singhjug1994@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -11,5 +14,19 @@
     "blueimp-md5": "^2.10.0",
     "cheerio": "^1.0.0-rc.2",
     "request": "^2.82.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/juggernaut451/phoneVerify/issues"
+  },
+  "homepage": "https://github.com/juggernaut451/phoneVerify#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "validation",
+    "phone",
+    "verify",
+    "mobile"
+  ]
 }
