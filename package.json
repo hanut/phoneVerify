@@ -1,0 +1,15 @@
+{
+  "name": "phoneVerif",
+  "version": "1.0.0",
+  "description": "Beautiful little library to verify phone number",
+  "main": "index.js",
+  "repository": "https://github.com/juggernaut451/phoneVerify",
+  "author": "Ashutosh Kumar Singh <singhjug1994@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "blueimp-md5": "^2.10.0",
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.82.0"
+  }
+}
