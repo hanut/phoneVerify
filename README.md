@@ -15,5 +15,17 @@ phoneverify.getDetail(phone, funcition(err, result){
         console.log(err)
     }
     console.log(result)
+
+    //  result
+    //  { valid: true,
+    //    number: '919898989898',
+    //    local_format: '09898989898',
+    //    international_format: '+919898989898',
+    //    country_prefix: '+91',
+    //    country_code: 'IN',
+    //    country_name: 'India (Republic of)',
+    //    location: 'Gujarat',
+    //    carrier: 'Bharti Airtel Ltd',
+    //    line_type: 'mobile' }
 })
 ```
